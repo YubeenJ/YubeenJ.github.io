@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+header {
+    background: #333;
+    margin: 2rem;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+nav a:hover {
+    background: #555;
+}
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
+
+/* 공통 사진 스타일 */
+
+.photo img {
+    max-width: 100% !important; /* 부모 요소의 크기를 넘지 않도록 강제 제한 */
+    width: 200px !important; /* 고정된 가로 크기 */
+    height: auto !important; /* 비율에 따라 자동 조정 */
+}
+    
+
+
+.home-photo img{
+
+    width: 300px; /* About Me 사진 크기 */
+    height: 300px;
+    border-radius: 50%; /* 둥근 모서리 (필요에 따라 제거 가능) */
+    vertical-align: middle;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+}
+
+
+
+/* About Me 섹션 사진 스타일 */
+.about-photo {
+    display: flex; /* Flexbox 활성화 */
+    justify-content: center; /* 가로 방향 중앙 정렬 */
+    align-items: center; /* 세로 방향 중앙 정렬 (필요 시 추가) */
+    margin-bottom: 1rem; /* 사진 아래 여백 */
+}
+
+/* About Me 사진 스타일 */
+.about-photo img {
+    width: 200px; /* About Me 사진 크기 */
+    height: 200px;
+    border-radius: 50%; /* 완전히 둥근 모양 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 약간의 그림자 효과 */
+}
+
