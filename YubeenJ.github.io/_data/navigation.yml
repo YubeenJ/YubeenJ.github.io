@@ -1,0 +1,12 @@
+- label: About
+  url: /
+- label: Research
+  url: /research.html
+- label: Publications
+  url: /publications.html
+- label: Experience
+  url: /experience.html
+- label: CV
+  url: /cv.html
+- label: Contact
+  url: /contact.html
