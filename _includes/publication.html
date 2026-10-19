@@ -1,0 +1,11 @@
+{% assign paper = include.paper %}
+{% capture search_text %}{{ paper.year }} {{ paper.title }} {{ paper.authors }} {{ paper.journal }}{% endcapture %}
+<article class="publication"{% if include.filterable %} data-publication data-first="{{ paper.first_author }}" data-search="{{ search_text | downcase | escape }}"{% endif %}>
+  <div class="pub-year">{{ paper.year }}</div><div>
+  <p class="pub-journal">{{ paper.journal | escape }}{% if paper.details != '' %} · {{ paper.details | escape }}{% endif %}</p>
+  <h3><a href="https://doi.org/{{ paper.doi | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }} <span aria-hidden="true">↗</span></a></h3>
+  <p class="pub-authors">{{ paper.authors | escape | replace: 'Jeong, Y.', '<strong>Jeong, Y.</strong>' }}</p>
+  {% if paper.first_author %}<span class="small-tag">First author</span>{% endif %}
+  <div class="publication-body">{{ paper.content | markdownify }}</div>
+  </div>
+</article>

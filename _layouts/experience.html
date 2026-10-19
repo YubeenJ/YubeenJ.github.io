@@ -1,0 +1,6 @@
+---
+layout: default
+---
+{% include heading.html %}
+<div class="field-gallery">{% for photo in page.photos %}<figure><img src="{{ photo.path | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy"><figcaption>{{ photo.caption | escape }}</figcaption></figure>{% endfor %}</div>
+<div class="prose">{{ content }}</div>
