@@ -12,6 +12,19 @@ photos:
   alt: Shipboard CTD equipment above the ocean at sunset
   caption: Shipboard oceanographic instrumentation.
 ---
+<style>
+/* 문단 안의 줄 간격 */
+#main p,
+#main li {
+  line-height: 1.8;
+}
+
+/* 문단과 다음 문단 사이 간격 */
+#main p {
+  margin-bottom: 14px;
+}
+</style>
+
 
 ## Fieldwork & observing systems
 
