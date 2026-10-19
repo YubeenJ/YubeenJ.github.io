@@ -6,18 +6,6 @@ eyebrow: Measurements to mechanisms
 subtitle: Exploring how ocean currents vary, interact with their surroundings, and shape the ocean’s structure.
 ---
 
-<style>
-/* 문단 안의 줄 간격 */
-#main p,
-#main li {
-  line-height: 1.8;
-}
-
-/* 문단과 다음 문단 사이 간격 */
-#main p {
-  margin-bottom: 14px;
-}
-</style>
 
 My doctoral research centers on the Gulf Stream near Cape Hatteras, where a western boundary current encounters complex topography and separates from the coast. I approach these questions through observational oceanography, integrating in situ measurements and satellite remote sensing.
 
