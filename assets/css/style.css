@@ -123,3 +123,21 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
   object-position: center;
   transform: none;
 }
+
+
+
+/* At a glance — 실제 내용 */
+#main .at-a-glance dd {
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+/* 각 항목의 작은 제목 */
+#main .at-a-glance dt {
+  font-size: 14px;
+}
+
+/* Download CV 링크 */
+#main .at-a-glance .text-link {
+  font-size: 15px;
+}
