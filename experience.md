@@ -15,7 +15,7 @@ photos:
 <style>
 /* 대주제: Fieldwork, Teaching, Talks */
 #main .prose > h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 /* 소주제: Glider piloting, R/V Sally Ride 등 */
