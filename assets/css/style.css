@@ -18,22 +18,22 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
 body,
 .prose,
 .about-grid p {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 /* 왼쪽 메뉴 */
 .main-nav a {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* 이름 아래 한 줄 소개 */
 .intro-line {
-  font-size: 21px;
+  font-size: 24px;
 }
 
 /* 논문 저자·뉴스·오른쪽 요약 정보 */
 .pub-authors,
 .news-list p,
 .at-a-glance dd {
-  font-size: 16px;
+  font-size: 20px;
 }
