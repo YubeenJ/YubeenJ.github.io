@@ -59,8 +59,9 @@ Analysis of observed hourly submesoscale surface-current maps.
 ## Memberships
 
 - American Geophysical Union (AGU)
+- Asia Oceania Geosciences Society (AOGS)
 - Korean Society of Oceanography (KSO)
-
+  
 ## Complete CV
 
 [Open the complete CV (PDF)]({{ site.data.profile.cv | relative_url }}) for all publications, presentations, teaching, field experience, and references.
