@@ -83,7 +83,7 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
 
 /* 큰 주제 바로 아래 첫 경력 */
 #main .prose > h2 + h3 {
-  margin-top: 24px;
+  margin-top: 20px;
   padding-top: 0;
   border-top: 0;
 }
