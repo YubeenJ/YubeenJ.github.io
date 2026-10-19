@@ -1,6 +1,0 @@
-<header class="page-intro">
-{% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow | escape }}</p>{% endif %}
-<h1>{{ page.title | escape }}</h1>
-{% if page.subtitle %}<p class="intro-line">{{ page.subtitle | escape }}</p>{% endif %}
-{% if page.cv_download %}<a class="button" href="{{ site.data.profile.cv | relative_url }}" download>Download full CV <span aria-hidden="true">↓</span></a>{% endif %}
-</header>
