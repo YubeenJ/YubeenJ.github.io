@@ -13,3 +13,27 @@
 /* Markdown content: edit text in the .md files, not this stylesheet. */
 h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-name{font-family:var(--font);font-weight:700}.page-intro h1{letter-spacing:-1.3px}.research-row h3,.publication h3,.manuscripts h3,.dataset-list h3,.contact-address h2,.email-large{font-family:var(--font);font-weight:700}.publication h3{font-size:22px}.prose{font-size:16px;max-width:850px;margin-bottom:55px}.prose>h2{font-size:29px;border-bottom:1px solid var(--rule);padding:0 0 15px;margin:48px 0 24px}.prose>h2:first-child{margin-top:0}.prose>h3{font-size:21px;font-weight:700;margin:29px 0 9px}.prose p{margin-bottom:18px}.prose ul{padding-left:22px}.prose li{margin:5px 0}.prose blockquote{border-left:3px solid #8fb4bf;padding:12px 20px;margin:25px 0;background:var(--pale);color:#426b7d}.prose blockquote p:last-child{margin-bottom:0}.prose a{border-bottom:1px solid #bbd3db}.prose img{margin:22px 0;max-width:100%;height:auto}.prose hr{border:0;border-top:1px solid var(--rule);margin:35px 0}.prose table{width:100%;border-collapse:collapse;font-size:14px;margin:25px 0}.prose th,.prose td{padding:10px;text-align:left;border-bottom:1px solid var(--rule)}.prose th{background:var(--pale);color:var(--ink)}.prose .button{color:#fff}.about-grid .prose{margin:0}.about-grid .prose h2{border:0;margin:0 0 20px;padding:0;font-size:29px}.publication-body{font-size:13px;margin-top:12px}.publication-body p{margin:0 0 10px}.news-list .news-text p{margin:0}.page-heading-links{margin-top:22px}.contact-copy{display:flex;align-items:center;gap:15px}.contact-copy .copy-status{margin:0}.site-footer p{font-family:var(--font)}
 @media(max-width:760px){.prose{font-size:16px}.prose>h2{font-size:27px;margin-top:36px}.publication h3{font-size:20px}.about-grid .prose h2{font-size:27px}.prose table{display:block;overflow-x:auto}.news-list .news-text{font-size:14px}}
+
+/* 본문 글자 크기 */
+body,
+.prose,
+.about-grid p {
+  font-size: 18px;
+}
+
+/* 왼쪽 메뉴 */
+.main-nav a {
+  font-size: 17px;
+}
+
+/* 이름 아래 한 줄 소개 */
+.intro-line {
+  font-size: 21px;
+}
+
+/* 논문 저자·뉴스·오른쪽 요약 정보 */
+.pub-authors,
+.news-list p,
+.at-a-glance dd {
+  font-size: 16px;
+}
