@@ -141,3 +141,7 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
 #main .at-a-glance .text-link {
   font-size: 15px;
 }
+
+.title-dot {
+  display: none;
+}
