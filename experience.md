@@ -12,8 +12,17 @@ photos:
   alt: Shipboard CTD equipment above the ocean at sunset
   caption: Shipboard oceanographic instrumentation.
 ---
+<style>
+/* 대주제: Fieldwork, Teaching, Talks */
+#main .prose > h2 {
+  font-size: 24px;
+}
 
-
+/* 소주제: Glider piloting, R/V Sally Ride 등 */
+#main .prose > h3 {
+  font-size: 22px;
+}
+</style>
 
 ## Fieldwork & observing systems
 
