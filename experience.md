@@ -7,7 +7,7 @@ subtitle: Ocean observations begin with people, instruments, and time in the fie
 photos:
 - path: /assets/images/ctd.jpg
   alt: Shipboard CTD equipment above the ocean at sunset
-  caption: Shipboard oceanographic instrumentation.
+  caption: Shipboard CTD (Conductivity, Temperature, Depth).
 ---
 <style>
 /* 대주제: Fieldwork, Teaching, Talks */
