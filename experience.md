@@ -5,9 +5,6 @@ permalink: /experience.html
 eyebrow: At sea & on shore
 subtitle: Ocean observations begin with people, instruments, and time in the field.
 photos:
-- path: /assets/images/yb_cruise.jpg
-  alt: Yubeen working with oceanographic observations at a shipboard computer station
-  caption: Working with ocean observations at sea.
 - path: /assets/images/ctd.jpg
   alt: Shipboard CTD equipment above the ocean at sunset
   caption: Shipboard oceanographic instrumentation.
