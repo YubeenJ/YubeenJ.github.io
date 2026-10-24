@@ -146,6 +146,34 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
   display: none;
 }
 
+/* Keep the manuscripts list compact on Research and Publications. */
+#main .manuscripts article {
+  padding: 18px 0;
+}
+
+#main .manuscripts h3 {
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 8px 0 6px;
+}
+
+#main .manuscripts .small-tag {
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 2px 6px;
+}
+
+#main .manuscripts .muted {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  #main .manuscripts h3 {
+    font-size: 20px;
+  }
+}
+
 /* Research interests: readable figures and a continuous research timeline. */
 .research-intro h1 {
   overflow-wrap: break-word;
