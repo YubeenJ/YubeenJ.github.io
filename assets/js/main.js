@@ -23,6 +23,12 @@
 
   document.querySelectorAll('[data-research-figure]').forEach(image => {
     const showFigureStatus = () => {
+      const fallback = image.dataset.fallbackSrc;
+      if (fallback) {
+        delete image.dataset.fallbackSrc;
+        image.src = fallback;
+        return;
+      }
       const figure = image.closest('figure');
       figure.querySelector('.research-figure-image').hidden = true;
       figure.querySelector('.figure-load-status').hidden = false;

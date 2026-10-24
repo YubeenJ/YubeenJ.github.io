@@ -6,12 +6,13 @@ Verified on 24 October 2026 for the Research Interests update.
 - Markdown, Liquid, and YAML: parsed and rendered successfully.
 - Local navigation, section anchors, images, stylesheets, fonts, and PDF references: 114 references checked, no missing targets.
 - Research content: three first-author published papers and three first-author manuscripts in preparation, checked against the existing publication records and CV. Other coauthored studies are excluded from Research.
-- Published representative figures: Jeong et al. (2019), Figure 7, and Jeong et al. (2022), Figure 8. Publisher URLs, descriptions, credits, article/DOI links, and CC BY 4.0 licenses checked against the papers.
-- Chromium layout checks: 320, 375, 390, 768, 1024, and 1440 px; no horizontal overflow or JavaScript errors.
+- Research order: manuscripts in preparation first, then current Gulf Stream work, 2022 warming, 2019 temperature reconstruction, and 2019 eddy research. The training/appointment timeline is last and starts with the current Ph.D. appointment.
+- Published representative figures: the author-supplied graphical abstract for Jeong et al. (2019), replacing Figure 7, and Jeong et al. (2022), Figure 8. Descriptions, credits, article/DOI links, and CC BY 4.0 licenses checked against the papers and supplied image. The graphical abstract is labeled separately from numbered figures.
+- Chromium layout checks for the reordered page: 320, 390, 768, and 1440 px; no horizontal overflow. Section and navigation order, first-author scope, and the bottom timeline were checked.
 - Mobile menu open/close, Escape key, research section links, and the first-author publication link/filter: passed. The complete Publications page retains all seven papers.
 - JavaScript syntax and `git diff --check`: passed.
 - Existing CV PDF and photograph/font assets: unchanged.
-- Verification limit: the managed environment's outbound proxy returns HTTP 403 for publisher image hosts. Images use the verified original publisher URLs and are not bundled locally; actual image loading and appearance could not be verified. The loading-error fallback and original-image/article links were checked. Publisher availability or URL changes can affect previews.
+- Verification limit: publisher image hosts cannot be fetched from this environment. The graphical abstract was visually identified from the image supplied in chat, but the attachment was not materialized as a local file. Its publisher PNG/thumbnail paths follow the paper's asset naming convention and could not be verified remotely; image bytes are not bundled. Actual image loading could not be verified. The loading-error fallback and original-image/article links were checked.
 - Publication uses the existing main-branch GitHub Pages workflow. Its build and deployment result is checked for the published source commit.
 
 Production build command in the prepared environment:

@@ -1,11 +1,12 @@
 {% assign figure = include.figure %}
+{% capture figure_label %}{% if figure.label %}{{ figure.label }}{% else %}Figure {{ figure.number }}{% endif %}{% endcapture %}
 <figure class="research-figure">
-  <a class="research-figure-image" href="{{ figure.image | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size Figure {{ figure.number }}: {{ figure.title | escape }}">
-    <img src="{{ figure.image | escape }}" alt="{{ figure.alt | escape }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-research-figure>
+  <a class="research-figure-image" href="{{ figure.image | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size {{ figure_label | strip | escape }}: {{ figure.title | escape }}">
+    <img src="{{ figure.image | escape }}" alt="{{ figure.alt | escape }}"{% if figure.width and figure.height %} width="{{ figure.width }}" height="{{ figure.height }}"{% endif %}{% if figure.fallback_image %} data-fallback-src="{{ figure.fallback_image | escape }}"{% endif %} loading="lazy" decoding="async" referrerpolicy="no-referrer" data-research-figure>
   </a>
   <p class="figure-load-status" hidden role="status">Preview unavailable. Open the original figure using the link below.</p>
   <figcaption>
-    <strong>Figure {{ figure.number }}. {{ figure.title | escape }}</strong>
+    <strong>{{ figure_label | strip | escape }}. {{ figure.title | escape }}</strong>
     <p class="figure-explanation">{{ figure.explanation | escape }}</p>
     <p class="figure-source">Source: {{ figure.credit | escape }} <a href="{{ figure.article | escape }}" target="_blank" rel="noopener noreferrer">Article &amp; original caption</a> · <a href="{{ figure.license_url | escape }}" target="_blank" rel="noopener noreferrer">{{ figure.license | escape }}</a>.</p>
     <a class="figure-expand" href="{{ figure.image | escape }}" target="_blank" rel="noopener noreferrer">View original figure ↗</a> · <a class="figure-expand" href="https://doi.org/{{ figure.doi | escape }}" target="_blank" rel="noopener noreferrer">Read paper ↗</a>

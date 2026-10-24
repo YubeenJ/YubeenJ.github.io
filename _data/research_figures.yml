@@ -1,12 +1,17 @@
-# Published figures, served from their verified original publisher image URLs.
+# Published figures, served from publisher image URLs.
 # Captions below are explanatory paraphrases; the original figures are unmodified.
 reconstruction:
-  image: https://www.mdpi.com/remotesensing/remotesensing-11-03018/article_deploy/html/images/remotesensing-11-03018-g007.png
-  number: 7
-  title: Seasonal mixed-layer depth from reconstructed temperature
-  alt: Four global maps show reconstructed mixed-layer depth in winter, spring, summer, and autumn for 1993–2016.
-  explanation: Global seasonal mixed-layer-depth climatology for 1993–2016, calculated from reconstructed three-dimensional temperature using a 0.2°C threshold. The maps illustrate how surface measurements can help reveal seasonal changes in upper-ocean structure.
-  credit: Jeong, Hwang, Park, Jang & Jo (2019), Remote Sensing 11, 3018, Figure 7. © The authors.
+  # Identified from the graphical abstract supplied by the author in chat.
+  # Publisher access is restricted in the build environment; see VALIDATION.md.
+  image: https://www.mdpi.com/remotesensing/remotesensing-11-03018/article_deploy/html/images/remotesensing-11-03018-ag.png
+  fallback_image: https://www.mdpi.com/remotesensing/remotesensing-11-03018/article_deploy/html/images/remotesensing-11-03018-ag-550.jpg
+  label: Graphical abstract
+  width: 550
+  height: 467
+  title: From surface observations to ocean temperature and mixed-layer variability
+  alt: Graphical abstract linking satellite altimetry, sea-surface temperature, wind stress and in situ observations to three-dimensional temperature reconstruction, seasonal mixed-layer depth and decadal variability.
+  explanation: Satellite and in situ measurements are combined using multiple linear regression to reconstruct three-dimensional ocean temperature. The reconstructed fields support estimates of seasonal mixed-layer depth and analysis of its decadal variability.
+  credit: Jeong, Hwang, Park, Jang & Jo (2019), Remote Sensing 11, 3018, graphical abstract. © The authors.
   doi: 10.3390/rs11243018
   article: https://www.mdpi.com/2072-4292/11/24/3018
   license: CC BY 4.0
