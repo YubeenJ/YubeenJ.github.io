@@ -22,14 +22,14 @@ My research centers on Gulf Stream variability and western boundary current dyna
 
 **How do winds and topography shape a strong western boundary current before it separates from the coast?**
 
-Since joining UNC Chapel Hill in August 2022, I have focused on the Gulf Stream near Cape Hatteras. I use long-term high-frequency radar surface-current observations to study changes in its path and current structure. My doctoral work brings together three connected questions:
+Since joining UNC Chapel Hill in August 2022, I have focused on the Gulf Stream near Cape Hatteras. I use long-term high-frequency radar surface-current observations to study changes in its path and current structure. My doctoral work includes the following research questions:
 
 - **Measuring variability:** How can Gulf Stream parameters be extracted and evaluated consistently from long-term HF radar observations?
 - **Atmospheric forcing:** What characterizes equatorward shift events, and how are these events related to atmospheric forcing?
 - **Topographic interactions:** How does the Gulf Stream recover from topographic perturbations and maintain path coherence before separation?
 
 <div class="research-status" markdown="1">
-**Ongoing doctoral work · three first-author manuscripts in preparation.** Manuscript titles and status are listed above. The published figures below illustrate my earlier first-author work.
+**Ongoing doctoral work · {{ site.manuscripts.size }} first-author manuscripts in preparation.** Manuscript titles and status are listed above. The published figures below illustrate my earlier first-author work.
 </div>
 
 High-frequency radar provides a long-term view of the surface flow. My broader observational work also uses underwater gliders, shipboard measurements, and satellite observations to connect surface variability with the ocean beneath it.

@@ -1,4 +1,4 @@
 <section><div class="section-heading"><h2>Manuscripts in preparation</h2></div><div class="manuscripts">
 {% assign manuscripts = site.manuscripts | sort: 'order' %}
-{% for item in manuscripts %}<article><span class="small-tag">{{ item.status | escape }}</span><h3>{{ item.title | escape }}</h3><p class="muted">{{ item.authors | escape }}</p>{{ item.content | markdownify }}</article>{% endfor %}
+{% for item in manuscripts %}<article><span class="small-tag">{{ item.status | escape }}</span><h3>{{ item.title | escape }}</h3>{% if item.authors %}<p class="muted">{{ item.authors | escape }}</p>{% endif %}{{ item.content | markdownify }}</article>{% endfor %}
 </div></section>
