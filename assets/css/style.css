@@ -242,6 +242,8 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
 
 #main .research-figure-image {
   display: block;
+  width: min(85%, 720px);
+  margin-inline: auto;
   border-bottom: 0;
 }
 
@@ -379,6 +381,10 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
   #main .research-figure {
     margin: 24px 0;
     padding: 12px;
+  }
+
+  #main .research-figure-image {
+    width: 100%;
   }
 
   #main .research-figure figcaption {
