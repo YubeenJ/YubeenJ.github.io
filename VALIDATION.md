@@ -11,7 +11,7 @@ Verified on 24 October 2026 for the Research Interests update.
 - Chromium layout checks for the reordered page: 320, 390, 768, and 1440 px; no horizontal overflow. Section and navigation order, first-author scope, and the bottom timeline were checked.
 - Mobile menu open/close, Escape key, research section links, and the first-author publication link/filter: passed. The complete Publications page retains all seven papers.
 - JavaScript syntax and `git diff --check`: passed.
-- Existing CV PDF and photograph/font assets: unchanged.
+- CV PDF: replaced with the latest uploaded seven-page PDF, byte-identical to the supplied file (SHA-256 `5d3592c052fb78277298e8fcae3174bc081e66f63ce9ea9106e0ba8e090542c4`). ASLO appears in both the web CV and PDF memberships. Shared download links include a file-version query to refresh cached copies. Photograph/font assets are unchanged.
 - Verification limit: publisher image hosts cannot be fetched from this environment. The graphical abstract was visually identified from the image supplied in chat, but the attachment was not materialized as a local file. Its publisher PNG/thumbnail paths follow the paper's asset naming convention and could not be verified remotely; image bytes are not bundled. Actual image loading could not be verified. The loading-error fallback and original-image/article links were checked.
 - Publication uses the existing main-branch GitHub Pages workflow. Its build and deployment result is checked for the published source commit.
 

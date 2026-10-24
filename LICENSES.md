@@ -8,7 +8,7 @@ The WOFF files were converted from the supplied TTF files without subsetting or 
 Calibri is referenced as a locally installed font only; no Microsoft font files are bundled.
 
 Photographs originate from the user's existing YubeenJ/YubeenJ.github.io repository.
-The CV is the user-supplied PDF, unchanged. Personal text, photographs, and CV are not granted a third-party open-source license by this package.
+The CV is the latest user-supplied PDF, reproduced without altering its contents. Personal text, photographs, and CV are not granted a third-party open-source license by this package.
 
 ## Published research figures
 

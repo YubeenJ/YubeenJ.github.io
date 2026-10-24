@@ -59,6 +59,7 @@ Analysis of observed hourly submesoscale surface-current maps.
 ## Memberships
 
 - American Geophysical Union (AGU)
+- Association for the Sciences of Limnology and Oceanography (ASLO)
 - Asia Oceania Geosciences Society (AOGS)
 - Korean Society of Oceanography (KSO)
   
