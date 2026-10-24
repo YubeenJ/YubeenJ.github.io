@@ -9,6 +9,7 @@ A personal academic website for GitHub Pages, with a persistent ocean-blue profi
 
 - Homepage: `index.md`
 - Research: `research.md`
+- Research figure captions, credits, and paper links: `_data/research_figures.yml`
 - Publications: one Markdown file per paper in `_publications/`
 - Manuscripts: `_manuscripts/`
 - Experience: `experience.md`

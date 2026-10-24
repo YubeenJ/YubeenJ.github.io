@@ -21,11 +21,21 @@
   const breakpoint = window.matchMedia('(min-width: 761px)');
   breakpoint.addEventListener('change', () => setMenu(false));
 
+  document.querySelectorAll('[data-research-figure]').forEach(image => {
+    const showFigureStatus = () => {
+      const figure = image.closest('figure');
+      figure.querySelector('.research-figure-image').hidden = true;
+      figure.querySelector('.figure-load-status').hidden = false;
+    };
+    image.addEventListener('error', showFigureStatus);
+    if (image.complete && !image.naturalWidth) showFigureStatus();
+  });
+
   const search = document.querySelector('#publication-search');
   if (search) {
     const publications = [...document.querySelectorAll('[data-publication]')];
     const filters = [...document.querySelectorAll('[data-filter]')];
-    let selected = 'all';
+    let selected = new URLSearchParams(window.location.search).get('filter') === 'first' ? 'first' : 'all';
     function updatePublications() {
       const words = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
       let count = 0;
@@ -47,6 +57,14 @@
       });
       updatePublications();
     }));
+    if (selected === 'first') {
+      filters.forEach(button => {
+        const active = button.dataset.filter === selected;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+      updatePublications();
+    }
   }
   const copy = document.querySelector('[data-copy-email]');
   if (copy) copy.addEventListener('click', async () => {

@@ -10,6 +10,7 @@
 | 첫 화면 소개·한 줄 설명·배너 사진 | `index.md` |
 | 연구 설명 | `research.md` |
 | 논문 페이지 소개 | `publications.md` |
+| Research 대표 그림·설명·출처·논문 링크 | `_data/research_figures.yml` |
 | 논문 한 편 추가·수정 | `_publications/`의 개별 `.md` 파일 |
 | 준비 중인 원고 | `_manuscripts/`의 개별 `.md` 파일 |
 | 현장 경험·강의·멘토링·발표 | `experience.md` |

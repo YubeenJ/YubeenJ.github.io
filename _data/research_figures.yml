@@ -1,0 +1,24 @@
+# Published figures, served from their verified original publisher image URLs.
+# Captions below are explanatory paraphrases; the original figures are unmodified.
+reconstruction:
+  image: https://www.mdpi.com/remotesensing/remotesensing-11-03018/article_deploy/html/images/remotesensing-11-03018-g007.png
+  number: 7
+  title: Seasonal mixed-layer depth from reconstructed temperature
+  alt: Four global maps show reconstructed mixed-layer depth in winter, spring, summer, and autumn for 1993–2016.
+  explanation: Global seasonal mixed-layer-depth climatology for 1993–2016, calculated from reconstructed three-dimensional temperature using a 0.2°C threshold. The maps illustrate how surface measurements can help reveal seasonal changes in upper-ocean structure.
+  credit: Jeong, Hwang, Park, Jang & Jo (2019), Remote Sensing 11, 3018, Figure 7. © The authors.
+  doi: 10.3390/rs11243018
+  article: https://www.mdpi.com/2072-4292/11/24/3018
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+warming:
+  image: https://www.frontiersin.org/files/Articles/825368/xml-images/fmars-09-825368-g008.webp
+  number: 8
+  title: Winds, circulation, and contrasting temperature changes
+  alt: Published schematic of northerly winds, western downwelling and eastern upwelling in the East Sea, with the East Korea Warm Current pathway.
+  explanation: This published conceptual schematic connects northerly winds with convergence and downwelling in the western East/Japan Sea and divergence and upwelling in the east. Together with changes in warm-current pathways, these processes help explain the contrasting surface and subsurface temperature changes during 2000–2014.
+  credit: Jeong, Nam, Kwon, Uppara & Jo (2022), Frontiers in Marine Science 9, 825368, Figure 8. © The authors.
+  doi: 10.3389/fmars.2022.825368
+  article: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.825368/full
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
