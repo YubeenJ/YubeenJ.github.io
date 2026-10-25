@@ -132,6 +132,8 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
 .contact-photo {
   width: 50%;
   justify-self: center;
+  margin-top: 12px;
+  transform: translateX(-12px);
 }
 
 @media (max-width: 960px) {
