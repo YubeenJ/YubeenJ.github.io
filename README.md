@@ -2,6 +2,8 @@
 
 A personal academic website for GitHub Pages, with a persistent ocean-blue profile sidebar, responsive layouts, and one Calibri-style font family throughout.
 
+The theme button switches between light and dark mode. The first visit follows the device's color preference; an explicit choice is saved in the browser and used across pages and future visits. Photos and published figures keep their original colors.
+
 **처음 업로드:** [START_HERE.md](START_HERE.md)  
 **직접 수정:** [EDITING.md](EDITING.md)
 
