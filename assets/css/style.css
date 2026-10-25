@@ -130,9 +130,10 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
 }
 
 .contact-photo {
-  width: 50%;
-  justify-self: center;
-  margin-top: 12px;
+  width: 52%;
+  justify-self: start;
+  margin-top: 20px;
+  margin-left: 12%;
   transform: translateX(-12px);
 }
 
@@ -143,7 +144,8 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
   }
 
   .contact-photo {
-    max-width: 180px;
+    max-width: 187px;
+    transform: none;
   }
 }
 
