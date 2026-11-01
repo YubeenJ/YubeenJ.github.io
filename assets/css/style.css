@@ -55,6 +55,21 @@ h1,h2,h3{font-family:var(--font);font-weight:700;letter-spacing:-.4px}.profile-n
   letter-spacing: 0.2px;
 }
 
+/* Keep news dates and status labels above the copy on narrow screens. */
+@media (max-width: 960px) {
+  .news-list article {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .news-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 12px;
+  }
+}
+
 /* 검색창·필터·버튼 */
 #main :is(button, input, .button) {
   font-size: 18px;
