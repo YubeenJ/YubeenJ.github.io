@@ -67,13 +67,13 @@ Led Marine Environment Laboratory sessions, guided students through experimental
 
 PS003: Dynamics of the ocean’s overturning: past, present, and future.
 
-### Invited talk · Pusan National University
-**2025**
+### Invited talk
+**2025 · Pusan National University**
 
 Long-term observation of the Gulf Stream off North Carolina using HF Radar.
 
-### Invited talk · Seoul National University
-**2024**
+### Invited talk
+**2024 · Seoul National University**
 
 Long-term observation of the Gulf Stream off North Carolina using HF Radar.
 
