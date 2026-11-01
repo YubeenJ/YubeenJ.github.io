@@ -36,12 +36,12 @@ CTD operations and drifter deployment.
 ### High-frequency radar field maintenance
 **March 12 – 17, 2023 · Outer Banks, North Carolina**
 
-Radar repair and reinstallation at the HATY, DUCK, and JENN sites.
+CODAR high-frequency radar repair and reinstallation at the HATY, DUCK, and JENN sites.
 
 ### R/V Neil Armstrong
 **January 2 – 12, 2023 · Cape Hatteras · NASA SWOT calibration/validation project**
 
-CPIES deployment.
+Deployment of current- and pressure-recording inverted echo sounders (CPIES).
 
 ### R/V NARA
 **March 2019**
