@@ -46,10 +46,8 @@ Pusan National University
 
 ## Technical skills
 
-- MATLAB and Python
-- Oceanographic data processing
-- Time-series analysis
-- Scientific visualization
+- MATLAB
+- Python
 
 ## Professional training
 
